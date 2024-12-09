@@ -1,12 +1,15 @@
 ﻿Ini adalah perintah Git umum yang digunakan dalam berbagai situasi:
+
 Memulai area kerja (lihat juga: git help tutorial)
     • clone Mengkloning repositori ke dalam direktori baru
     • init Membuat repositori Git kosong atau menginisialisasi ulang repositori yang sudah ada
+
 Bekerja pada perubahan saat ini (lihat juga: git help everyday)
     • add Menambahkan konten file ke indeks
     • mv Memindahkan atau mengganti nama file, direktori, atau symlink
     • restore Mengembalikan file di pohon kerja
     • rm Menghapus file dari pohon kerja dan dari indeks
+
 Memeriksa riwayat dan status (lihat juga: git help revisions)
     • bisect Menggunakan pencarian biner untuk menemukan commit yang menyebabkan bug
     • diff Menampilkan perubahan antara commit, commit dan pohon kerja, dll.
@@ -14,6 +17,7 @@ Memeriksa riwayat dan status (lihat juga: git help revisions)
     • log Menampilkan log commit
     • show Menampilkan berbagai jenis objek
     • status Menampilkan status pohon kerja
+
 Mengembangkan, menandai, dan menyempurnakan riwayat umum
     • branch Menampilkan, membuat, atau menghapus cabang
     • commit Merekam perubahan ke repositori
@@ -22,6 +26,7 @@ Mengembangkan, menandai, dan menyempurnakan riwayat umum
     • reset Mengatur ulang HEAD saat ini ke status yang ditentukan
     • switch Berpindah cabang
     • tag Membuat, menampilkan, menghapus, atau memverifikasi objek tag yang ditandatangani dengan GPG
+
 Berkolaborasi (lihat juga: git help workflows)
     • fetch Mengunduh objek dan referensi dari repositori lain
     • pull Mengambil dari dan mengintegrasikan dengan repositori lain atau cabang lokal
