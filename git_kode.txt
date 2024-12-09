@@ -1,24 +1,35 @@
 ﻿1. Konfigurasi Awal
+
 git config --global user.name "Nama Anda" = Mengatur nama pengguna global untuk Git
 git config --global user.email "email@domain.com" = Mengatur email pengguna global untuk Git
 git config --global core.editor "editor" = Mengatur editor teks yang digunakan Git (misalnya vim, nano, atau code)
+
 2. Menginisialisasi Repository
+
 git init = Menginisialisasi repository Git baru di direktori saat ini
 git clone <url_repository> = Menyalin repository dari remote ke komputer lokal
+
 3. Menambahkan dan Memeriksa Status
+
 git status = Menampilkan status file di working directory
 git add <file> = Menambahkan file tertentu ke staging area
 git add . = Menambahkan semua file yang telah diubah ke staging area
 git diff = Menampilkan perbedaan antara file yang diubah dan commit terakhir
+
 4. Commit Perubahan
+
 git commit -m "Pesan commit" = Menyimpan perubahan di staging area dengan pesan commit
 git commit -a = Menyimpan perubahan tanpa perlu menambahkan ke staging area terlebih dahulu
 git commit --amend = Mengubah commit terakhir dengan menambahkan perubahan baru
+
 5. Melihat Riwayat Commit
+
 git log = Menampilkan riwayat commit lengkap
 git log --oneline = Menampilkan riwayat commit singkat
 git log --graph = Menampilkan riwayat commit dalam bentuk grafis
+
 6. Menangani Branch (Cabang)
+
 git branch = Menampilkan daftar branch yang ada
 git branch <nama_branch> = Membuat branch baru
 git checkout <nama_branch> = Berpindah ke branch tertentu
@@ -28,33 +39,46 @@ git branch -d <nama_branch> = Menghapus branch tertentu
 
 
 7. Mengelola Remote Repository
+
 git remote add <nama_remote> <url_repository> = Menambahkan remote repository baru
 git remote -v = Menampilkan daftar remote repository
 git fetch <nama_remote> = Mengambil perubahan dari remote repository
 git pull <nama_remote> <nama_branch> = Mengambil dan menggabungkan perubahan dari remote repository
 git push <nama_remote> <nama_branch> = Mengirim commit dari branch lokal ke remote repository
+
 8. Menangani Konflik
+
 git merge --abort = Membatalkan proses merge jika terjadi konflik
 git rebase <branch> = Menerapkan perubahan dari branch lain ke branch aktif
 git reset = Mengembalikan perubahan ke kondisi sebelum commit tertentu
 git reset --hard = Menghapus semua perubahan yang belum di-commit
+
 9. Melihat dan Menangani Perubahan
+
 git log --stat = Menampilkan statistik perubahan pada setiap commit
 git show <id_commit> = Menampilkan detail commit tertentu
 git blame <file> = Menampilkan siapa yang mengubah setiap baris pada file tertentu
+
 10. Git Stash (Menunda Perubahan)
+
 git stash = Menyimpan perubahan sementara tanpa commit
 git stash apply = Mengembalikan perubahan dari stash
 git stash pop = Mengembalikan perubahan dari stash dan menghapus stash tersebut
 git stash list = Menampilkan daftar stash yang tersimpan
+
 11. Mengelola Tag
+
 git tag = Menampilkan daftar tag yang ada
 git tag <nama_tag> = Membuat tag baru pada commit terakhir
 git tag <nama_tag> <commit_id> = Membuat tag pada commit tertentu
 git push <nama_remote> --tags = Mengirim semua tag ke remote repository
+
 12. Menangani Submodule
+
 git submodule add <url_repository> = Menambahkan repository lain sebagai submodule
 git submodule update = Memperbarui submodule
+
 13. Git Help
+
 git help = Menampilkan dokumentasi bantuan Git
 git <command> --help = Menampilkan bantuan untuk perintah Git tertentu
