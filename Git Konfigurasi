@@ -1,0 +1,10 @@
+Konfigurasi Awal Git ( Terminal )
+
+git config --global user.name "Nama Anda"
+( Mengatur nama pengguna global untuk Git.)
+
+git config --global user.email "email@domain.com" 
+( Mengatur email pengguna global untuk Git.)
+
+git config --global core.editor "editor --wait"
+( Mengatur editor teks yang digunakan Git (misalnya vim, nano, atau code).
